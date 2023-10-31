@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.name, .links {
+    margin: 0;
+    padding: 0;
+}
+.name {
+    margin-left: 92px;
+}
+.links {
+    margin-right: 92px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+      
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
