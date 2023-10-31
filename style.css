@@ -44,7 +44,7 @@ a, .message {
 h2 { 
     display: flex;
     margin: 0;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-bottom: 92px;
     max-width: 1200px;
     gap: 32px;
@@ -61,17 +61,18 @@ container {
     align-self: center;
 }
 
-
 .statement {
     font-size: 48px;
     font-weight: 1000;
     color: #F9FAF8;
+
 }
 
 img {
     width: 500px;
     height: 333px;
     margin-right: 92px;
+
 }
 
 button {
@@ -79,4 +80,42 @@ button {
     color: white;
     width: 200px;
     border-radius: 16px;
+}
+
+h3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin: 0;
+    padding: o;
+}
+
+.pros {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.nurses, .social, .physio, .massage {
+    text-align: center;
+    width: 210px;
+}
+
+.nurses img, .social img, .massage img, .physio img {
+    width: 210px;
+    height: 210px;
+    border: 5px solid #1F2937;
+    border-radius: 5px;
+    
 }
