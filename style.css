@@ -1,28 +1,33 @@
+
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
+  
 }
 
 h1 {
-    color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
+        
+}
+
+.name {
+    margin-left: 150px;
+    font-size: 24px;
+    color: #F9FAF8;
     
 }
 
-.name, .links {
-    margin: 0;
-    padding: 0;
-}
-.name {
-    margin-left: 92px;
-}
 .links {
-    margin-right: 92px;
+    margin-right: 150px;
+    
 }
+
 ul {
     list-style-type: none;
     display: flex;
@@ -30,7 +35,48 @@ ul {
       
 }
 
-a {
-    color: white;
+a, .message {
+    color: #E5E7EB;
     text-decoration: none;
+    font-size: 18px;
+}
+
+h2 { 
+    display: flex;
+    margin: 0;
+    margin-top: 200px;
+    margin-bottom: 92px;
+    max-width: 1200px;
+    gap: 32px;
+    align-self: center;
+        
+}
+
+container {
+    margin: 0;
+    margin-left: 92px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: center;
+}
+
+
+.statement {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+img {
+    width: 500px;
+    height: 333px;
+    margin-right: 92px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 200px;
+    border-radius: 16px;
 }
